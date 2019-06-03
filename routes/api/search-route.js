@@ -3,7 +3,7 @@ const { getSavedSearches, getSearchById, saveSearch, deleteSearch } = require ("
 
 router  
   .route("/")
-  .get(getSavedSearches)
+  .get(getAllSearches)
   .post(saveSearch);
 
 
