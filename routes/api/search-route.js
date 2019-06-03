@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { getSavedSearches, getSearchById, saveSearch, deleteSearch } = require ("../../controllers/searchController");
+const { getAllSearches, getSearchById, saveSearch, deleteSearch } = require ("../../controllers/searchController");
 
 router  
   .route("/")
