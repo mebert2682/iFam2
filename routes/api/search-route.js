@@ -2,13 +2,13 @@ const router = require("express").Router();
 const { getSavedSearches, getSearchById, saveSearch, deleteSearch } = require ("../../controllers/searchController");
 
 router  
-  .router("/")
+  .route("/")
   .get(getSavedSearches)
   .post(saveSearch);
 
 
 router
-  .router("/:id")
+  .route("/:id")
   .get(getSearchById)
   .delete(deleteSearch);
 
