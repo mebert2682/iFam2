@@ -2,7 +2,7 @@ const { Search } = require("../models");
 
 function getAllSearches(req, res) {
   Search
-    .findAll({})
+    .find({})
     .then(dbSearchData => res.status(200).json(dbSearchData))
     .catch(err => {
       console.log(err);
