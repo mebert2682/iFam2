@@ -13,6 +13,10 @@ app.use(logger("dev"));
 const routes = require("./routes");
 app.use(routes);
 
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
+
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/ifam2", {
   useNewUrlParser: true
 });
