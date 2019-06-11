@@ -1,0 +1,104 @@
+.document{
+  background-color:#292540
+}
+
+.crate-logo{
+  height: 50px;
+  width: 50px;
+}
+
+.logo-text{
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.login-button{
+  background-color:#292540;
+  color:#c16572;
+  border-width: medium;
+  border-color: #c16572;
+}
+
+.jumbotron-fluid {
+  background-image: url("https://www.residentadvisor.net/images/events/flyer/2018/7/de-0716-1075902-front.jpg");
+  background-size: cover;
+  padding-bottom: 365px;
+  background-color:#292540
+  }
+
+  .current-song-name{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .current-song-image{
+    margin-bottom: 15px;
+  }
+
+  .search-bar{
+    width: 500px;
+    margin-bottom: 5px;
+    margin-left: -115px;
+  }
+
+  .search-button{
+    width: 275px;
+    background-color:#292540;
+    color:#c16572;
+    font-size: 20px;
+    border-width: medium;
+    border-color: #c16572;
+  }
+
+
+  .now-playing-search{
+    margin-top: 125px;
+    margin-left: 750px;
+  }
+
+  .search-results, .recent-song-list{
+    background-color:#292540;
+    color:#c16572;
+    border: none;
+    padding-top: 20px;
+    margin-top: -32px;
+    padding-left: 10px;
+    padding-right: 10px;    
+  }
+
+  .search-body, .recent-body{
+    margin-top: -5px;
+    margin-left:-20px;
+    height: 150px;
+  }
+
+  .add-song-button{
+    margin-left: 10px;
+  }
+
+  .sample-button{
+    margin-left: 10px;
+    height: 32px;
+    background-color:#c16572;
+    color:white;
+    border: #292540;
+  }
+
+  h2 {
+    height: 25px;
+    font-size: 20px;
+  }
+
+  .card {
+    margin-bottom: 25px;
+    background-color:#292540;
+    border: none;
+  }
+
+  .sticky-footer{
+    position: fixed;
+    background-color:#292540;
+    color: white
+  }
+
